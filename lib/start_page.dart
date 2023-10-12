@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'login_page.dart';
+import 'package:flutter/material.dart';/// untuk pembuatan antarmuka pengguna (UI) di Flutter.
+import 'login_page.dart'; /// berisi implementasi dari halaman login (LoginPage).
 
 class StartPage extends StatefulWidget {
   const StartPage({Key? key}) : super(key: key);

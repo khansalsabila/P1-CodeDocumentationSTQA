@@ -1,7 +1,7 @@
-import 'package:final_project_2023/nama_tps.dart';
-import 'package:final_project_2023/user_controller.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import 'package:final_project_2023/nama_tps.dart'; /// Berkas yang berisi implementasi widget NamaTps.
+import 'package:final_project_2023/user_controller.dart'; /// Berkas yang berisi implementasi UserController.
+import 'package:flutter/material.dart'; /// untuk pembuatan antarmuka pengguna (UI) di Flutter.
+import 'package:get/get.dart';/// digunakan untuk manajemen status dan navigasi.
 
 /// untuk menampilkan lokasi dan nama tps
 class TpsSekitar extends StatefulWidget {

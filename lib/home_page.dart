@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'user_controller.dart';
+import 'package:flutter/material.dart'; /// untuk pembuatan antarmuka pengguna (UI) di Flutter.
+import 'package:get/get.dart'; /// untuk manajemen state dan navigasi di Flutter.
+import 'user_controller.dart';///  Berkas yang mungkin berisi definisi UserController atau logika pengontrol pengguna.
 
 /// untuk menampilkan fitur tps sekitar
 class HomePage extends StatefulWidget {
@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  UserController userController = Get.find();
+  UserController userController = Get.find(); ///  digunakan untuk mendapatkan instance dari UserController. 
   @override
   Widget build(BuildContext context) {
     return Scaffold(

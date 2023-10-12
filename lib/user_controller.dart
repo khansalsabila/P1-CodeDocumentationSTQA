@@ -1,8 +1,8 @@
-import 'package:firedart/auth/firebase_auth.dart';
-import 'package:get/get.dart';
-import 'home_page.dart';
-import 'start_page.dart';
-import 'tps_sekitar.dart';
+import 'package:firedart/auth/firebase_auth.dart'; /// Paket Firedart untuk otentikasi dengan Firebase.
+import 'package:get/get.dart'; /// digunakan untuk manajemen status dan navigasi.
+import 'home_page.dart'; /// Berkas yang berisi implementasi halaman utama (HomePage).
+import 'start_page.dart'; ///Berkas yang berisi implementasi halaman awal (StartPage).
+import 'tps_sekitar.dart'; /// Berkas yang berisi implementasi halaman TPS sekitar (TpsSekitar).
 
 /// untuk menampilkan prompt jika email dan password salah
 class UserController extends GetxController {
@@ -40,15 +40,18 @@ class UserController extends GetxController {
     }
   }
 
+///Metode logout digunakan untuk keluar (logout) pengguna. Setelah logout, pengguna diarahkan ke halaman awal (StartPage).
   void logout() {
     FirebaseAuth.instance.signOut();
     Get.offAll(() => StartPage());
   }
 
+/// Metode home digunakan untuk navigasi ke halaman TPS sekitar (TpsSekitar).
   void home() {
     Get.offAll(() => TpsSekitar());
   }
 
+/// Metode tps digunakan untuk navigasi ke halaman utama (HomePage).
   void tps() {
     Get.offAll(() => HomePage());
   }

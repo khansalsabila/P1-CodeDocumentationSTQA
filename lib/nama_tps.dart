@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class NamaTps extends StatefulWidget {
+  ///Constructor (const NamaTps) digunakan untuk menginisialisasi properti yang diperlukan
   const NamaTps({
     Key? key,
     required this.nmtempat,
@@ -22,6 +23,7 @@ class NamaTps extends StatefulWidget {
 class _NamaTpsState extends State<NamaTps> {
   @override
   Widget build(BuildContext context) {
+    ///digunakan untuk memberikan padding dan menempatkan widget di tengah layar.
     return Container(
       padding: const EdgeInsets.only(left: 30, right: 30),
       child: Column(

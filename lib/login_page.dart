@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'user_controller.dart';
+import 'package:flutter/material.dart'; /// untuk pembuatan antarmuka pengguna (UI) di Flutter.
+import 'package:get/get.dart'; /// untuk manajemen state dan navigasi di Flutter
+import 'user_controller.dart'; /// Berkas yang mungkin berisi definisi UserController atau logika pengontrol pengguna.
 
 /// untuk menampilkan halaman login
 class LoginPage extends StatefulWidget {
